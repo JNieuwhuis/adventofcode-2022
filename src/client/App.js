@@ -1,4 +1,5 @@
 import "./App.css";
+import AllDays from "./components/AllDays";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
         <h1>Advent of Code 2022</h1>
       </header>
       <main className="App-main">
-        <p>Advent of Code 2022 Challenges!</p>
+        <AllDays />
       </main>
     </div>
   );
