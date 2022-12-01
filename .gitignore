@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+**/node_modules/
+/.pnp
+.pnp.js
+
+# compiled output
+dist/
+**/dist/
+
+# testing
+/coverage
+
+# production
+/build
+
+# yarn v2
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/
+
+# misc
+/cache
+
+# environments
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-error.log*
+yarn-error.log*
+npm-debug.log*
+yarn-debug.log*
+
+#System Files
+.DS_Store
+Thumbs.db
